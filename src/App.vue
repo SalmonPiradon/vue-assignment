@@ -1,7 +1,8 @@
 <template>
   <nav>
-    <RouterLink to="/">🏠 Courses </RouterLink>
+    <RouterLink to="/">กลับไปหน้า Course</RouterLink>
     <!-- TODO: สร้าง <RouterLink /> สำหรับหน้า Summary -->
+    <RouterLink to="/summary">ไปหน้า Summary</RouterLink>
   </nav>
   <main>
     <RouterView />
